@@ -51,16 +51,28 @@ nav li a{
     text-align: center;
 }
 
+.grid-margin{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.btn-library{
+    display: flex;
+    gap:24px;
+}
+
 /* About us section */
 .section-title{
     font-size: 35px;
     font-weight: bold;
     color: #181818;
+    line-height: 20px;
 }
 
 .section-description{
     font-size: 18px;
     color: #757575;
+    margin-bottom: 100px;
 }
 
 .secondary-bg{
@@ -127,10 +139,11 @@ main section{
 
 
 .about{
-    border-radius: 10px;
+    border-radius: 24px;
     padding: 150px 130px;
     max-width: 1140px;
     text-align: center;
+    margin: 56px auto;
 }
 
 .item-description{
@@ -187,9 +200,5 @@ main section{
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 30px;
-}
-
-.resume-container{
-    margin: 230px;
 }
 
