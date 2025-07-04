@@ -36,7 +36,7 @@ nav li a{
     font-size: 20px;
     color: white;
     padding: 18px 36px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .dark-2{
@@ -59,6 +59,20 @@ nav li a{
 .btn-library{
     display: flex;
     gap:24px;
+}
+
+h1{
+    line-height: 10px;
+    margin-bottom: 80px;
+}
+
+h4{
+    line-height: 1px;
+}
+
+.hero-paragraph{
+    line-height: 30px;
+    margin-bottom: 30px;
 }
 
 /* About us section */
@@ -156,7 +170,6 @@ main section{
 }
 
 .about secondary-bg{
-    /* max-width: 1140px; */
     align-items: center;
 }
 
@@ -176,6 +189,7 @@ main section{
 .resume-container{
     display: flex;
     gap: 24px;
+    margin-bottom: 30px;
 }
 
 .resume-column-title{
@@ -202,3 +216,30 @@ main section{
     margin-bottom: 30px;
 }
 
+/* FOOTER SECTION */
+
+.social-icon{
+    padding-right: 24px;
+}
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+input[type="text"], footer input[type="email"], footer textarea {
+    height: 64px;
+    border-radius: 8px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 24px;
+    border: none;
+}

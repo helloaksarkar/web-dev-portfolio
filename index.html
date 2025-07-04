@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
+  <!-- HEADER SECTION -->
   <body class="open-sans-normal">
     <header class="header secondary-bg">
       <nav class="nav-title">
@@ -28,7 +29,7 @@
         <div class="banner-content">
           <h4 class="banner-greetings dark-2">Hi, I am</h4>
           <h1 class="banner-title">Mary Hardy</h1>
-          <p>
+          <p class="hero-paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
             dolor totam amet, aspernatur nulla quae iusto, dicta, est cumque
             libero quaerat quam ipsum exercitationem saepe similique omnis aut
@@ -124,6 +125,8 @@
       </section>
       <!-- A summary of My Resume -->
       <h3 class="section-title text-center">A summary of My Resume</h3>
+      
+        </div>
       <div class="resume-container">
         <!-- .resume-column*2>h3.resume-column-title+.experience*3>h4.experience-title+h5.experience-sub-title+.experience-description -->
         <div class="resume-column">
@@ -163,7 +166,6 @@
               ligula eget dolor.
             </div>
           </div>
-          <hr />
         </div>
         <div class="resume-column">
           <h3 class="resume-column-title">My Experience</h3>
@@ -196,11 +198,31 @@
               ligula eget dolor.
             </div>
           </div>
-          <hr />
         </div>
       </div>
+      <div class="text-center resume-download-cv">
+          <button class="btn-primary">Download CV</button>
     </main>
 
-    <footer></footer>
+    <footer class="secondary-bg">
+      <div class="footer-column">
+        <h3 class="section-title">Lets Connect</h3>
+        <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+        <div class="social-icon">
+          <a href=""><img src="images/icons/facebook.png" alt=""></a>
+          <a href=""><img src="images/icons/insta.png" alt=""></a>
+          <a href=""><img src="images/icons/twitter.png" alt=""></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h3 class="section-title">Let’s Message me</h3>
+        <form action="">
+          <input type="text" name="" id="" placeholder="Your Name">
+          <input type="email" name="" id="" placeholder="Your Email">
+          <textarea name="" id="" cols="30" rows="100" placeholder="Your Message"></textarea>
+          <input class="btn-primary" type="submit" value="Submit">
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
