@@ -153,8 +153,8 @@ main section{
 
 
 .about{
-    border-radius: 24px;
-    padding: 150px 130px;
+    border-radius: 20px;
+    padding: 60px 130px;
     max-width: 1140px;
     text-align: center;
     margin: 56px auto;
@@ -223,9 +223,14 @@ main section{
 }
 
 footer{
+    margin-top: 80px;
     padding: 130px 230px;
     display: flex;
     gap: 100px;
+}
+
+.footer-paragraph{
+    line-height: 35px;
 }
 
 .footer-column{
